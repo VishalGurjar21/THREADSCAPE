@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;                    
+  overflow-x: hidden;
+}
+h1 {
+  padding: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+#a {
+  background-color: #aaa;
+}
+
+.d {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: x-large;
+}
+
+.d h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.b {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+nav {
+  background-color: #444;
+  padding: 15px;
+  font-size: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #d80303;
+  color: black;
+}
+
+.c img {
+  width: 1520px;
+  height: 500px;
+}
+
+.e {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 1450px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0px 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  max-width: 300px;
+  max-height: 700px;
+  text-align: center;
+}
+
+.img5,
+.img6,
+.img7,
+.img8 {
+  margin: 30px 20px;
+}
+
+.img9,
+.img10,
+.img11,
+.img12 {
+  margin: 20px 20px;
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img,
+.img9 img,
+.img10 img,
+.img11 img,
+.img12 img {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.img11 img {
+  height: 410px;
+}
+
+.img1 h1,
+.img2 h1,
+.img3 h1,
+.img4 h1,
+.img5 h1,
+.img6 h1,
+.img7 h1,
+.img8 h1,
+.img9 h1,
+.img10 h1,
+.img11 h1,
+.img12 h1 {
+  font-size: 30px;
+  /* padding: 0px; */
+  margin: 1px 10px;
+  color: black;
+}
+
+.diwali {
+  text-align: center;
+}
+
+.img1 p,
+.img2 p,
+.img3 p,
+.img4 p,
+.img5 p,
+.img6 p,
+.img7 p,
+.img8 p,
+.img9 p,
+.img10 p,
+.img11 p,
+.img12 p {
+  font-size: 20px;
+  color: #000000;
+  /* position: relative; */
+  display: inline;
+  bottom: 10px; 
+  float: left;
+  margin-bottom: 60px;
+}
+
+.img1 p a,
+.img2 p a,
+.img3 p a,
+.img4 p a,
+.img5 p a,
+.img6 p a,
+.img7 p a,
+.img8 p a,
+.img9 p a,
+.img10 p a,
+.img11 p a,
+.img12 p a {
+  color: blue;
+}
+
+.logo img {
+  border-radius: 50%;
+  border: 8px solid black;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  height: 150px;
+}
+.logo1 img , .logo3 img {
+  border-radius: 50%;
+  border: 5px solid black;
+  height: 100px;
+  position: relative;
+  bottom: 2240px;
+  left: 1080px;
+}
+
+.logo2 img {
+  border-radius: 50%;
+  border: 5px solid black;
+  height: 100px;
+  position: relative;
+  bottom: 2240px;
+  right: 1080px;
+}
+
+.diwali { 
+  background-color: #333;
+  color: white; 
+  display: flex;
+  flex-wrap: wrap;
+} 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px 0;
+  font-family: Arial, sans-serif;
+}
+
+.section-p1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.section-p1 .col {
+  flex: 1 1 250px;
+  padding: 20px;
+  min-width: 200px;
+}
+
+.section-p1 .col h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-p1 .col p, .section-p1 .col a {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.section-p1 .col a:hover {
+  color: #fff;
+}
+
+.section-p1 .col img {
+  max-width: 120px;
+  margin-top: 10px;
+}
+
+/* Follow Us Icons */
+.Follow .icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.Follow .icon a i {
+  font-size: 20px;
+  color: #ccc;
+  /* transition: color 0.3s; */
+}
+
+.Follow .icon a i:hover {
+  color: #fff;
+}
+
+
+.install .row img {
+  width: 80px;
+  margin: 10px 10px 20px 0;
+}
+
+
+
+.install p {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.icon ul , .col ul {
+  list-style: none;
+}
+.icon ul li , .col ul li{
+  padding: 10px;
+}
+
+
+button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  float: right;}
+
+button:hover {
+  background-color: #e68a00;
+}
+.fa-cart-shopping {
+  margin-right: 5px;
+}
